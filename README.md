@@ -7,7 +7,7 @@ Output(top_cost_drug.txt)
 
 #Algorithm:
 
-I used two hashmaps 
+I used two hashmaps and Comparator.Comparator is very efficient for streaming data and static data. 
 - one hashmap to store drugs and respective costs so that I can calculate total$
 - one hashmap to store drugs and respective prescibers to calculate the total n$
 - I used Comparator for sorting purpose
