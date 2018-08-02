@@ -5,7 +5,13 @@ Input(itcont.txt)
 Output(top_cost_drug.txt) 
 - a list of all drugs (drug_name,number of prescribers, total_cost) must be listed in descending order based on the total drug cost and if there is a tie, drug name.
 
+#Algorithm
+I used two hashmaps 
+- one hashmap to store drugs and respective costs so that I can calculate total$
+- one hashmap to store drugs and respective prescibers to calculate the total n$
+- I used Comparator for sorting purpose
 
+#Tests
 test_1
 - tests the calculation of total cost
 - tests the order of the output list based on total cost
@@ -14,3 +20,9 @@ test_1
 test_2
 - tests descending order based on the total drug cost and with a tie
 - tests drug_name order is considered when there is a tie in totals cost 
+
+#Algorithm
+I used two hashmaps 
+- one hashmap to store drugs and respective costs so that I can calculate total cost
+- one hashmap to store drugs and respective prescibers to calculate the total number of prescribers for a specific drug
+- I used Comparator for sorting purpose  
