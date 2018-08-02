@@ -1,4 +1,4 @@
-# Medicare
+# Centers for Medicare & Medicaid Services
 Input(itcont.txt) 
 - a list of all drugs, the total number of UNIQUE individuals who prescribed the medication, and the total drug cost
 
