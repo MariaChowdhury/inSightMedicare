@@ -7,7 +7,8 @@ Output(top_cost_drug.txt)
 
 
 test_1
-- tests the order of the output list
+- tests the calculation of total cost
+- tests the order of the output list based on total cost
 - tests the number of prescribers
 
 test_2
